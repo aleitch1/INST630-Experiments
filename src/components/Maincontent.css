@@ -1,0 +1,139 @@
+.main-content {
+    width: 100%;
+    min-height: 110%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .main-content #background-image {
+    text-align: center;
+    z-index: -2;
+    /* scrollable background */
+    /* position: absolute; */
+  
+    /* fixed background */
+    position: fixed;
+    height: 100%;
+  }
+  
+  #bg-image {
+    width: 100%;
+    filter: brightness(69%);
+    margin-top: -20px;
+    transform: scale(1.2);
+  }
+  
+  .container {
+    margin-top: 140px;
+    color: #ffffff;
+    padding-bottom: 200px;
+  }
+  
+  #day-date-time {
+    right: 0;
+    z-index: 2;
+    padding: 15px 40px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+  }
+  
+  .container h1 {
+    text-align: center;
+    padding: 50px 100px 0 100px;
+    margin: auto;
+    font-size: 48px;
+  }
+  
+  .container h2 {
+    text-align: center;
+    padding: 10px 100px 100px 100px;
+    margin: auto;
+    font-weight: 500;
+    font-size: 24px;
+  }
+  
+  .container .main-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    margin: 0 180px;
+  }
+  
+  .container .main-row .main-column {
+    display: inline-block;
+    background: white;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    color: #121212;
+  }
+  .line {
+    width: 72%;
+    height: 10px;
+    background: #f8d247;
+    margin: auto;
+  }
+  
+  .heading-line {
+    width: 150px;
+    height: 5px;
+    border-radius: 2px;
+    background: #f8d247;
+    margin: auto;
+  }
+  
+  .container .main-row .main-column h4 {
+    font-weight: 700;
+    padding: 30px 20px 15px 20px;
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .container .main-row .main-column .row {
+    font-size: 14px;
+    display: flex;
+    width: 100%;
+    margin: 20px 50px;
+    justify-content: center;
+  
+  }
+  
+  .container .main-row .main-column .row .column {
+    font-size: 16px;
+    width: 100%;
+    text-align: left;
+    margin: 0;
+  }
+  
+  .container .main-row .main-column .info {
+    color: #d0343b;
+    padding: 10px 30px 40px 30px;
+    line-height: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    /* letter-spacing: 0.4px; */
+  }
+  
+  .container .main-row .main-column .emergency-lines .row {
+    margin: 15px 30px;
+  }
+  
+  .primary {
+    padding: 16px;
+    border-radius: 7px;
+    background: #d0343b;
+    border: none;
+    width: 70%;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 8px;
+    cursor: pointer;
+    font-size: 0.9em;
+  }
+  .primary:hover {
+    background: #f13c45;
+  }
+  
+  .container .main-row .main-column .emergency-lines button {
+    margin-top: 10px;
+  }
