@@ -1,0 +1,6 @@
+.footer {
+    flex-shrink: 0;
+    height: auto;
+    padding: 1rem;
+    background-color: gray;
+}

@@ -4,7 +4,7 @@ import Maincontent from './components/Maincontent';
 import Navbar from './components/Navbar';
 import Secondsection from './components/Secondsection';
 import Titlebar from './components/Titlebar';
-
+import Footer from './components/Footer';
 
 
 function App() {
@@ -14,6 +14,7 @@ function App() {
        <Navbar />
        <Maincontent />
        <Secondsection />
+       <Footer />
     </div>
   );
 }
